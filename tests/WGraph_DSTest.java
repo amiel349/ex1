@@ -387,7 +387,7 @@ class WGraph_DSTest {
         long end = new Date().getTime();
         double time=(end-start)/1000.0;
         // System.out.println("time for 1M vertices and 5M edges: "+time+" ms");
-        boolean check=(int)time<10;
+        boolean check=(int)time<30;
         assertTrue(check);
     }
     private weighted_graph small_graph() {
