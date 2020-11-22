@@ -367,7 +367,7 @@ class WGraph_DSTest {
     }
 
     /**
-     * test of running time of 1M nodes and 10M edges less than 10 sc
+     * test of running time of 1M nodes and 10M edges less than 30 sc
      */
 
     @Test
@@ -376,6 +376,7 @@ class WGraph_DSTest {
         weighted_graph g0 = new WGraph_DS();
         for (int i = 0; i <1000000 ; i++) {
             g0.addNode(i);
+
         }
         for (int i = 0; i <10000000 ; i++) {
              int x=(int)(Math.random()*1000000);
@@ -390,6 +391,7 @@ class WGraph_DSTest {
         boolean check=(int)time<30;
         assertTrue(check);
     }
+
     private weighted_graph small_graph() {
         weighted_graph g0 = new WGraph_DS();
         g0.addNode(0);

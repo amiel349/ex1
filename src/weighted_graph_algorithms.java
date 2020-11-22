@@ -13,6 +13,7 @@ import java.util.List;
  * @author boaz.benmoshe
  *
  */
+
 public interface weighted_graph_algorithms {
     /**
      * Init the graph on which this set of algorithms operates on.

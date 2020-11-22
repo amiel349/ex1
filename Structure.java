@@ -2,6 +2,7 @@ package ex1;
 
 import java.io.File;
 
+
 public class Structure {
 
     private static String[] _dirs = {"src", "tests", "README.txt"};

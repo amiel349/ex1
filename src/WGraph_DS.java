@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Objects;
 
-
 public class WGraph_DS implements weighted_graph,java.io.Serializable {
     private HashMap<Integer, HashMap<Integer, vertex>> neigh;
     private HashMap<Integer, node_info> vertices;

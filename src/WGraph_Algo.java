@@ -3,7 +3,6 @@ package ex1.src;
 import java.io.*;
 import java.util.*;
 
-
 public class WGraph_Algo implements weighted_graph_algorithms,java.io.Serializable {
     private weighted_graph graph;
 
